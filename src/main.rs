@@ -22,7 +22,7 @@ fn parse_args(args: &Vec<String>) -> Option<BoardConfig> {
 }
 
 fn print_usage() {
-    println!("{}: rust_2048 [CONFIG] [FLAGS]", "Usage".green());
+    println!("{}: game_2048 [CONFIG] [FLAGS]", "Usage".green());
     println!();
     println!("{} - {} {} {}", "Config".green(), "NUMBER".bright_red(), "NUMBER".bright_yellow(), "NUMBER".bright_magenta());
     println!(" - consists of three numbers");
